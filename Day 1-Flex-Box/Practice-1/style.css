@@ -1,0 +1,63 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main-items{
+    display: flex;
+    flex-direction: row;
+
+}
+.f1strow{
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: brown;
+    border-radius: 5px;
+    flex-grow: 5;
+}
+.f2ndrow{
+    color: whitesmoke;
+    padding: 10px;
+    height: 30px;
+   margin-left: 10px;
+   border-radius: 5px;
+    flex-grow: 5;
+    background-color: brown;
+}
+.f3rdrow{
+    color: whitesmoke;
+    padding: 10px;
+    height: 30px;
+    margin-top: 8px;
+   margin-left: 10px;
+   border-radius: 5px;
+   flex-grow: 3;
+    background-color: brown;
+}
+.f1{
+    background-color: antiquewhite;
+    height: 20px;
+    margin-top: 10px;
+    color: brown;
+}
+.p2{
+    display: flex;
+}
+.f2{
+    background-color: antiquewhite;
+    height: 20px;
+    margin-top: 5px;
+    color: brown;
+}
+.f3{
+    background-color: antiquewhite;
+    height: 20px;
+    margin-top: 13px;
+    color: brown;
+}
